@@ -7251,7 +7251,7 @@ html, body, header {
 
 /* line 5, C:/github/sweed/source/stylesheets/index.css */
 header {
-  background-image: url("/images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
