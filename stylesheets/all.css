@@ -7245,11 +7245,11 @@ button.close {
   /* line 18, C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 1, C:/sweed/source/stylesheets/index.css */
+/* line 1, C:/github/sweed/source/stylesheets/index.css */
 html, body, header {
   height: 100%; }
 
-/* line 5, C:/sweed/source/stylesheets/index.css */
+/* line 5, C:/github/sweed/source/stylesheets/index.css */
 header {
   background-image: url("/images/header.jpg");
   background-size: cover;
@@ -7257,20 +7257,20 @@ header {
   background-repeat: no-repeat;
   position: relative; }
 
-/* line 13, C:/sweed/source/stylesheets/index.css */
+/* line 13, C:/github/sweed/source/stylesheets/index.css */
 .image {
   width: 200px;
   height: 200px;
   top: 50%;
   left: 50%; }
 
-/* line 20, C:/sweed/source/stylesheets/index.css */
+/* line 20, C:/github/sweed/source/stylesheets/index.css */
 nav {
   background-color: black;
   padding: 15px;
   width: 100%; }
 
-/* line 26, C:/sweed/source/stylesheets/index.css */
+/* line 26, C:/github/sweed/source/stylesheets/index.css */
 nav ul {
   font-family: "Sari Medium";
   font-size: 14pt;
@@ -7280,38 +7280,38 @@ nav ul {
   color: white;
   padding: 0; }
 
-/* line 36, C:/sweed/source/stylesheets/index.css */
+/* line 36, C:/github/sweed/source/stylesheets/index.css */
 nav ul li {
   display: inline-block;
   padding-right: 15px; }
 
-/* line 41, C:/sweed/source/stylesheets/index.css */
+/* line 41, C:/github/sweed/source/stylesheets/index.css */
 section {
   padding-top: 7%;
   padding-bottom: 7%; }
 
-/* line 46, C:/sweed/source/stylesheets/index.css */
+/* line 46, C:/github/sweed/source/stylesheets/index.css */
 h1 {
   font-family: "Sari Medium"; }
 
-/* line 50, C:/sweed/source/stylesheets/index.css */
+/* line 50, C:/github/sweed/source/stylesheets/index.css */
 .statement h1 {
   color: #E86060;
   font-size: 38pt;
   padding-bottom: 35px;
   text-align: center; }
 
-/* line 57, C:/sweed/source/stylesheets/index.css */
+/* line 57, C:/github/sweed/source/stylesheets/index.css */
 .statement p {
   font-family: "Serif Regular";
   font-size: 16pt; }
 
-/* line 62, C:/sweed/source/stylesheets/index.css */
+/* line 62, C:/github/sweed/source/stylesheets/index.css */
 .get {
   background-color: #4050FB;
   color: white; }
 
-/* line 67, C:/sweed/source/stylesheets/index.css */
+/* line 67, C:/github/sweed/source/stylesheets/index.css */
 .aside {
   width: 50%;
   float: left;
@@ -7319,136 +7319,136 @@ h1 {
   position: relative;
   transform: translateY(25%); }
 
-/* line 75, C:/sweed/source/stylesheets/index.css */
+/* line 75, C:/github/sweed/source/stylesheets/index.css */
 .tagline {
   font-size: 32pt;
   font-family: "Sari Medium"; }
 
-/* line 80, C:/sweed/source/stylesheets/index.css */
+/* line 80, C:/github/sweed/source/stylesheets/index.css */
 .description {
   font-family: "Serif Regular";
   font-size: 26pt;
   padding-top: 15px;
   padding-bottom: 20px; }
 
-/* line 87, C:/sweed/source/stylesheets/index.css */
+/* line 87, C:/github/sweed/source/stylesheets/index.css */
 .apple {
   display: inline-block;
   padding-right: 35px; }
 
-/* line 92, C:/sweed/source/stylesheets/index.css */
+/* line 92, C:/github/sweed/source/stylesheets/index.css */
 .google {
   display: inline-block; }
 
-/* line 96, C:/sweed/source/stylesheets/index.css */
+/* line 96, C:/github/sweed/source/stylesheets/index.css */
 .help {
   font-family: "Serif Regular";
   background-color: #10131C;
   color: white;
   font-size: 26pt; }
 
-/* line 103, C:/sweed/source/stylesheets/index.css */
+/* line 103, C:/github/sweed/source/stylesheets/index.css */
 .message {
   padding-top: 45px; }
 
-/* line 107, C:/sweed/source/stylesheets/index.css */
+/* line 107, C:/github/sweed/source/stylesheets/index.css */
 .send {
   float: right;
   text-transform: uppercase;
   border-radius: 20px;
   margin-top: 20px; }
 
-/* line 114, C:/sweed/source/stylesheets/index.css */
+/* line 114, C:/github/sweed/source/stylesheets/index.css */
 footer {
   background-color: #10131C;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px; }
 
-/* line 121, C:/sweed/source/stylesheets/index.css */
+/* line 121, C:/github/sweed/source/stylesheets/index.css */
 .logo {
   margin-right: 25px;
   display: inline-block; }
 
-/* line 126, C:/sweed/source/stylesheets/index.css */
+/* line 126, C:/github/sweed/source/stylesheets/index.css */
 .icons {
   padding-bottom: 35px; }
 
-/* line 130, C:/sweed/source/stylesheets/index.css */
+/* line 130, C:/github/sweed/source/stylesheets/index.css */
 .info {
   color: white;
   padding-top: 30px;
   padding-bottom: 30px; }
 
-/* line 136, C:/sweed/source/stylesheets/index.css */
+/* line 136, C:/github/sweed/source/stylesheets/index.css */
 .center {
   text-align: center; }
 
-/* line 140, C:/sweed/source/stylesheets/index.css */
+/* line 140, C:/github/sweed/source/stylesheets/index.css */
 .features {
   font-family: "Serif Regular";
   font-size: 16pt;
   background-color: #E86060;
   color: white; }
 
-/* line 147, C:/sweed/source/stylesheets/index.css */
+/* line 147, C:/github/sweed/source/stylesheets/index.css */
 .iphone {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 153, C:/sweed/source/stylesheets/index.css */
+/* line 153, C:/github/sweed/source/stylesheets/index.css */
 .features img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 25px; }
 
-/* line 160, C:/sweed/source/stylesheets/index.css */
+/* line 160, C:/github/sweed/source/stylesheets/index.css */
 .features h1 {
   padding-bottom: 65px; }
 
-/* line 164, C:/sweed/source/stylesheets/index.css */
+/* line 164, C:/github/sweed/source/stylesheets/index.css */
 .features .col-md-4 {
   padding-bottom: 55px; }
 
-/* line 168, C:/sweed/source/stylesheets/index.css */
+/* line 168, C:/github/sweed/source/stylesheets/index.css */
 .headline {
   font-size: 38pt;
   padding-bottom: 15px; }
 
-/* line 173, C:/sweed/source/stylesheets/index.css */
+/* line 173, C:/github/sweed/source/stylesheets/index.css */
 .help .container {
   padding-left: 15%;
   padding-right: 15%; }
 
-/* line 178, C:/sweed/source/stylesheets/index.css */
+/* line 178, C:/github/sweed/source/stylesheets/index.css */
 label {
   font-family: "Sari Bold";
   font-size: 12pt; }
 
-/* line 183, C:/sweed/source/stylesheets/index.css */
+/* line 183, C:/github/sweed/source/stylesheets/index.css */
 button {
   font-family: "Sari Bold";
   font-size: 10px; }
 
-/* line 188, C:/sweed/source/stylesheets/index.css */
+/* line 188, C:/github/sweed/source/stylesheets/index.css */
 .form-control {
   font-family: "Sari Medium";
   font-size: 14pt; }
 
-/* line 193, C:/sweed/source/stylesheets/index.css */
+/* line 193, C:/github/sweed/source/stylesheets/index.css */
 .key {
   text-transform: uppercase;
   font-family: "Sari Bold";
   font-size: 11pt; }
 
-/* line 199, C:/sweed/source/stylesheets/index.css */
+/* line 199, C:/github/sweed/source/stylesheets/index.css */
 .value {
   font-family: "Serif Regular";
   font-size: 11pt; }
 
-/* line 204, C:/sweed/source/stylesheets/index.css */
+/* line 204, C:/github/sweed/source/stylesheets/index.css */
 .copyright {
   font-family: "Serif Regular";
   font-size: 10pt;
