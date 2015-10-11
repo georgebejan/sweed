@@ -1,0 +1,208 @@
+html, body, header {
+  height: 100%;
+}
+
+header {
+  background-image: url(image_path("images/header.jpg"));
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.image { 
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+}
+
+nav {
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+}
+
+nav ul {
+  font-family: "Sari Medium";
+  font-size: 14pt;
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+section {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+h1 {
+  font-family: "Sari Medium";
+}
+
+.statement h1 {
+  color: #E86060;
+  font-size: 38pt;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.statement p {
+  font-family: "Serif Regular";
+  font-size: 16pt;
+}
+
+.get {
+  background-color: #4050FB;
+  color: white;
+}
+
+.aside {
+  width: 50%;
+  float: left;
+  height: 100%;
+  position: relative;
+  transform: translateY(25%);
+}
+
+.tagline {
+  font-size: 32pt;
+  font-family: "Sari Medium";
+}
+
+.description {
+  font-family: "Serif Regular";
+  font-size: 26pt;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.apple {
+  display: inline-block;
+  padding-right: 35px;
+}
+
+.google { 
+  display: inline-block;
+}
+
+.help {
+  font-family: "Serif Regular";
+  background-color: #10131C;
+  color: white;
+  font-size: 26pt;
+}
+
+.message {
+  padding-top: 45px;
+}
+
+.send {
+  float:right;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #10131C;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.icons {
+  padding-bottom: 35px;
+}
+
+.info {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.features {
+  font-family: "Serif Regular";
+  font-size: 16pt;
+  background-color: #E86060;
+  color: white;
+}
+
+.iphone {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.features img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom: 25px;
+}
+
+.features h1 {
+  padding-bottom: 65px;
+}
+
+.features .col-md-4 {
+  padding-bottom: 55px;
+}
+
+.headline {
+  font-size: 38pt;
+  padding-bottom: 15px;
+}
+
+.help .container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+label {
+  font-family: "Sari Bold";
+  font-size: 12pt;
+}
+
+button {
+  font-family: "Sari Bold";
+  font-size: 10px;
+}
+
+.form-control {
+  font-family: "Sari Medium" ;
+  font-size: 14pt;
+}
+
+.key {
+  text-transform: uppercase;
+  font-family: "Sari Bold";
+  font-size: 11pt;
+}
+
+.value {
+  font-family: "Serif Regular";
+  font-size: 11pt;
+}
+
+.copyright {
+  font-family: "Serif Regular";
+  font-size: 10pt;
+  color: white;
+}
