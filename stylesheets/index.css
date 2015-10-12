@@ -21,6 +21,8 @@ nav {
   background-color: black;
   padding: 15px;
   width: 100%;
+  position: fixed;
+  z-index: 1000;
 }
 
 nav ul {
@@ -47,6 +49,11 @@ h1 {
   font-family: "Sari Medium";
 }
 
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .statement h1 {
   color: #E86060;
   font-size: 38pt;
@@ -56,7 +63,7 @@ h1 {
 
 .statement p {
   font-family: "Serif Regular";
-  font-size: 16pt;
+  font-size: 23px;
 }
 
 .get {
@@ -68,18 +75,16 @@ h1 {
   width: 50%;
   float: left;
   height: 100%;
-  position: relative;
-  transform: translateY(25%);
+  padding-top: 10%;
 }
-
 .tagline {
-  font-size: 32pt;
+  font-size: 40px;
   font-family: "Sari Medium";
 }
 
 .description {
   font-family: "Serif Regular";
-  font-size: 26pt;
+  font-size: 26px;
   padding-top: 15px;
   padding-bottom: 20px;
 }
@@ -177,7 +182,7 @@ footer {
 
 label {
   font-family: "Sari Bold";
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 button {
