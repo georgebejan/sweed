@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-<link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 <meta charset='utf-8'>
 <!-- Always force latest IE rendering engine or request Chrome Frame -->
 <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
@@ -13,52 +12,55 @@
 </head>
 <body class='index'>
 <header>
-<nav>
-<ul>
-<li>Home</li>
-<li>About</li>
-<li>Explore</li>
-<li>Contact</li>
-</ul>
-</nav>
-</header>
-<section class='statement'>
-<div class='container'>
-<h1>
+<img id='sweed_logo' src='images/sweed_corner_logo.png'>
+<div class='container' id='header_overlay'>
+<div class='row text-center' id='header_tagline'>
 Live every day to the fullest!
-</h1>
-<p>
-We believe in people, we believe in experiences, we believe that it's up to us to develop ourselves,
-we believe we have the right to choose our own paths, we believe in our freedom of speech...and spirit.
-</p>
-<p>
-We love people that come together and invent new ways of living. We love seeing events happen.
-We love making new friends. We love experiences that we can see, hear, feel and remember.
-</p>
-<p>
-We choose smiling over stress, we choose sharing over possession... we choose ourselves.
-</p>
-<p>
-The world is ours to enjoy and care for, people are ours to grow and live with and events are ours to experience and remember.
-</p>
 </div>
-</section>
-<section class='get'>
+<div class='row'>
+<div class='col-md-4 col-md-offset-4 text-center' id='play'></div>
+</div>
+<div class='row' id='paused'>
+<div class='col-md-4 col-md-offset-4 text-center'>
+Paused
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 col-md-offset-4 text-center' id='get_featured'>
+<button class='btn btn-primary navbar-btn' type='button'>Get featured</button>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-6 col-md-offset-3 text-center' id='to_contact'>
+Got a business? Drop a line and get featured.
+</div>
+</div>
+</div>
+<div class='row' id='video-controls'>
+<div class='col-md-2 pull-right' id='stop'>
+<img src='images/stop_button.png'>
+</div>
+<div class='col-md-2 col-md-offset-8 text-right' id='pause'>
+<img src='images/pause_button.png'>
+</div>
+</div>
+</header>
+<section id='download'>
 <div class='container'>
 <div class='row'>
-<div class='col-md-6 aside'>
-<p class='tagline'>
-Introducing the Sweed New City App
-</p>
-<p class='description'>
-With our new app you will be able to find all the best places in town.
-</p>
-<div class='download'>
-<div class='apple'>
-<img src='images/apple.png'>
+<div class='col-md-8 aside'>
+<div class='row medium' id='tagline'>
+Find where you need to be!
 </div>
-<div class='google'>
-<img src='images/google.png'>
+<div class='row light' id='description'>
+Download Sweed for free on either the App Store or Google Play!
+</div>
+<div class='row'>
+<div class='col-md-4 download'>
+<img src='images/appstore.png'>
+</div>
+<div class='col-md-4 download'>
+<img src='images/googleplay.png'>
 </div>
 </div>
 </div>
@@ -68,99 +70,232 @@ With our new app you will be able to find all the best places in town.
 </div>
 </div>
 </section>
-<section class='features center'>
-<div class='container'>
-<h1>
-Join the Sweed-ness!
-</h1>
-<div class='row'>
-<div class='col-md-4'>
-<img src='images/shape1.png'>
-1. Join social events
-</div>
-<div class='col-md-4'>
-<img src='images/shape2.png'>
-2. Find the best places
-</div>
-<div class='col-md-4'>
-<img src='images/shape3.png'>
-3. Book your table
-</div>
+<section id='diagram'>
+<div class='diagram_wrapper'>
+<div class='row text-center medium' id='up'>
+Sweed Up Your Time
 </div>
 <div class='row'>
-<div class='col-md-4'>
-<img src='images/shape4.png'>
-4. Jumpstart your conversation
+<div class='diagram_column text-center icon'>
+<img src='images/social_events.png'>
+<div class='mobile_text'>
+Join Social Events
 </div>
-<div class='col-md-4'>
-<img src='images/shape5.png'>
-5. Grow your network
+<div class='left_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
 </div>
-<div class='col-md-4'>
-<img src='images/shape6.png'>
-6. Rate your experience
+</div>
+</div>
+<div class='diagram_column text-center icon'>
+<div class='right_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+</div>
+</div>
+<img src='images/places.png'>
+<div class='mobile_text'>
+Find the Best Places
+</div>
+<div class='left_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+</div>
+</div>
+</div>
+<div class='diagram_column text-center icon'>
+<div class='right_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+</div>
+</div>
+<img src='images/book.png'>
+<div class='mobile_text'>
+Book your Spot
+</div>
+</div>
+</div>
+<div class='row' id='diagram_info'>
+<div class='diagram_column text-center desktop_text'>
+Join Social Events
+</div>
+<div class='diagram_column text-center desktop_text'>
+Find the Best Places
+</div>
+<div class='diagram_column text-center desktop_text'>
+Book your Spot
+</div>
+</div>
+<div class='row'>
+<div class='diagram_column horizontal_line'>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+</div>
+<div class='diagram_column horizontal_line'></div>
+<div class='diagram_column horizontal_line'>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+<div class='circle line'></div>
+</div>
+</div>
+<div class='row'>
+<div class='diagram_column text-center icon'>
+<img src='images/rate.png'>
+<div class='mobile_text'>
+Rate Your Experience
+</div>
+<div class='left_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+</div>
+</div>
+</div>
+<div class='diagram_column text-center icon'>
+<div class='right_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+</div>
+</div>
+<img src='images/network.png'>
+<div class='mobile_text'>
+Grow Your Network
+</div>
+<div class='left_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+</div>
+</div>
+</div>
+<div class='diagram_column text-center icon'>
+<div class='right_circles'>
+<div class='circle inline'></div>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+<div class='hide_on_tablet inline'>
+<div class='circle inline distance_left'></div>
+<div class='circle inline distance_left'></div>
+</div>
+</div>
+<img src='images/conversation.png'>
+<div class='mobile_text'>
+Jumpstart Your Conversation
+</div>
+</div>
+</div>
+<div class='row' id='diagram_info'>
+<div class='diagram_column text-center desktop_text'>
+Rate Your Experience
+</div>
+<div class='diagram_column text-center desktop_text'>
+Grow Your Network
+</div>
+<div class='diagram_column text-center desktop_text'>
+Jumpstart Your Conversation
 </div>
 </div>
 </div>
 </section>
-<section class='help center'>
+<section id='description'>
 <div class='container'>
-<h1 class='headline'>
-What do you need help with?
-</h1>
-<h2>
-This helps us to make sure you get the right answer as fast as possible.
-</h2>
+<div class='row'>
+<div class='col-md-12'>
+<p class='text-center medium' id='title'>
+What sweed is all about
+</p>
+<div id='summary'>
+<p>We believe in people, we believe in experiences, we believe that it's up to us to develop ourselves, we believe we have the right to choose our own paths, we believe in our freedom of speech...and spirit.</p>
+<p>We love people that come together and invent new ways of living. We love seeing events happen. We love making new friends. We love experiences that we can see, hear, feel and remember.</p>
+<p>We choose smiling over stress, we choose sharing over possession... we choose OURSELVES.</p>
+<p>The world is ours to enjoy and care for, people are ours to grow and live with and events are ours to experience and remember.</p>
+</div>
+<p>Live every day to the fullest! Join the SWEEDness!</p>
+</div>
+</div>
 </div>
 </section>
-<section class='form'>
+<div class='contact_wrapper'>
+<section id='contact'>
 <div class='container'>
+<div class='row' id='form_title'>
+<div class='col-md-12 text-center'>
+<p class='medium'>Drop a line</p>
+<p class='light'>and we'll get back to you in no time!</p>
+</div>
+</div>
 <form>
 <div class='row'>
-<div class='col-md-6'>
+<div class='col-md-6 col-md-offset-3'>
 <div class='form-group'>
-<label>First name</label>
-<input class='form-control' name='first_name'>
-</div>
-</div>
-<div class='col-md-6'>
-<div class='form-group'>
-<label>Last name</label>
-<input class='form-control' name='last_name'>
+<input class='form-control' placeholder='Name'>
 </div>
 </div>
 </div>
 <div class='row'>
-<div class='col-md-6'>
+<div class='col-md-6 col-md-offset-3'>
 <div class='form-group'>
-<label>E-mail</label>
-<input class='form-control' name='email'>
+<input class='form-control' placeholder='Email'>
 </div>
-</div>
-<div class='col-md-6'>
-<div class='form-group'>
-<label>Subject</label>
-<input class='form-control' name='subject'>
-</div>
-</div>
-</div>
-<div class='row message'>
-<div class='col-md-12'>
-<label>Message</label>
-<textarea class='form-control' name='message' rows='10'></textarea>
 </div>
 </div>
 <div class='row'>
-<div class='col-md-3 col-md-offset-9'>
-<button class='btn btn-primary navbar-btn send' type='button'>Send a message</button>
+<div class='col-md-6 col-md-offset-3'>
+<div class='form-group'>
+<input class='form-control' placeholder='Subject'>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-6 col-md-offset-3'>
+<textarea class='form-control' placeholder='Message' rows='10'></textarea>
+</div>
+</div>
+<div class='row' id='send'>
+<div class='col-md-6 col-md-offset-3 text-center'>
+<button class='btn btn-primary navbar-btn' type='button'>Send a message</button>
 </div>
 </div>
 </form>
 </div>
 </section>
+</div>
 <footer>
 <div class='container'>
-<div class='row icons'>
+<div class='row' id='icons'>
 <div class='col-md-6 col-md-offset-3'>
 <div class='logo'>
 <img src='images/fb.png'>
@@ -171,21 +306,26 @@ This helps us to make sure you get the right answer as fast as possible.
 <img src='images/google+.png'>
 </div>
 </div>
-<div class='row info'>
+<hr>
+<div class='row' id='info'>
 <div class='col-md-4'>
-<p class='key'>Mail</p>
-<p class='value'>hello@sweed.com</p>
-</div>
-<div class='col-md-4'>
-<p class='key'>Call</p>
-<p class='value'>+04 191 231 3983</p>
+<img src='images/email_icon.png'>
+<p>Mail</p>
+<p>hello@sweed.com</p>
 </div>
 <div class='col-md-4'>
-<p class='key'>Find us</p>
-<p class='value'>Str. Fantoma nr.6, Cluj-Napoca</p>
+<img src='images/phone_icon.png'>
+<p>Call</p>
+<p>+04 191 231 3983</p>
+</div>
+<div class='col-md-4'>
+<img src='images/find_us_icon.png'>
+<p>Find us</p>
+<p>Str. Fantoma nr.6, Cluj-Napoca</p>
 </div>
 </div>
-<div class='row copyright'>
+<hr>
+<div class='row' id='copyright'>
 <div class='col-md-6 col-md-offset-3'>
 &copy 2015 Sweed Application. All rights reserved.
 </div>

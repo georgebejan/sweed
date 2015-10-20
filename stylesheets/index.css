@@ -2,6 +2,10 @@ html, body, header {
   height: 100%;
 }
 
+body {
+  font-family: "Helvetica Neue";
+}
+
 header {
   background-image: url(image_path("images/header.jpg"));
   background-size: cover;
@@ -10,117 +14,20 @@ header {
   position: relative;
 }
 
-.image { 
-  width: 200px;
-  height: 200px;
-  top: 50%;
-  left: 50%;
-}
-
-nav {
-  background-color: black;
-  padding: 15px;
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-}
-
-nav ul {
-  font-family: "Sari Medium";
-  font-size: 14pt;
-  list-style-type: none;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    padding-right: 15px;
-}
-
 section {
   padding-top: 7%;
   padding-bottom: 7%;
 }
 
-h1 {
-  font-family: "Sari Medium";
-}
-
-.container {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.statement h1 {
-  color: #E86060;
-  font-size: 38pt;
-  padding-bottom: 35px;
-  text-align: center;
-}
-
-.statement p {
-  font-family: "Serif Regular";
-  font-size: 23px;
-}
-
-.get {
-  background-color: #4050FB;
-  color: white;
-}
-
-.aside {
-  width: 50%;
-  float: left;
-  height: 100%;
-  padding-top: 10%;
-}
-.tagline {
-  font-size: 40px;
-  font-family: "Sari Medium";
-}
-
-.description {
-  font-family: "Serif Regular";
-  font-size: 26px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-}
-
-.apple {
-  display: inline-block;
-  padding-right: 35px;
-}
-
-.google { 
-  display: inline-block;
-}
-
-.help {
-  font-family: "Serif Regular";
-  background-color: #10131C;
-  color: white;
-  font-size: 26pt;
-}
-
-.message {
-  padding-top: 45px;
-}
-
-.send {
-  float:right;
-  text-transform: uppercase;
-  border-radius: 20px;
-  margin-top: 20px;
-}
-
 footer {
-  background-color: #10131C;
+  background-color: #213647;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
+}
+
+#icons {
+  padding-bottom: 35px;
 }
 
 .logo {
@@ -128,86 +35,320 @@ footer {
   display: inline-block;
 }
 
-.icons {
-  padding-bottom: 35px;
-}
-
-.info {
+#info {
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.center {
-  text-align: center;
-}
-
-.features {
-  font-family: "Serif Regular";
-  font-size: 16pt;
-  background-color: #E86060;
+#copyright {
+  font-size: 10pt;
   color: white;
 }
 
-.iphone {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+#tagline {
+  padding-bottom: 60px;
 }
 
-.features img {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  padding-bottom: 25px;
+#description {
+  padding-bottom: 70px;
+  font-size: 28pt;
 }
 
-.features h1 {
-  padding-bottom: 65px;
+.light {  
+  font-size: 30pt;
+  font-family: "Helvetica Neue Light";
 }
 
-.features .col-md-4 {
-  padding-bottom: 55px;
+.download img{
+  height: 40pt;
 }
 
-.headline {
-  font-size: 38pt;
+.download {
+  padding-left: 0;
+}
+
+.aside {
+  padding-top: 50px;
+}
+
+#summary {
+  padding-bottom: 15px;
+  font-size: 28pt;
+}
+
+.medium {  
+  font-family: "Helvetica Neue Medium";
+  font-size: 40pt;
+}
+
+#title {
+  padding-bottom: 30px;
+  text-transform: capitalize;
+}
+
+#summary {
+  font-family: "Helvetica Neue Thin";
+}
+
+#contact {
+  background-image: url(image_path("images/contact_background.png"));
+  background-size: cover;  
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #FFFFFF;
+}
+
+#paused {
+  padding-top: 20px;
+  color: white;
+  font-size: 20pt;
+}
+
+#contact:before {
+  content: '\A';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: .5;
+}
+
+#contact .container {
+  z-index: 1000;
+}
+
+.contact_wrapper {
+  position: relative;
+}
+
+#play {
+  height: 60px;
+  background-image: url(image_path("images/play_button.png"));
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 50px;
+}
+
+#send {
+  margin-top: 75px;  
+}
+
+#send button {
+  font-family: "Helvetica Neue Medium";
+  font-size: 24pt;
+}
+
+#contact input {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  font-family: "Helvetica Neue Light";
+  font-size: 15pt;
+  border-width: 2pt;
+  border-radius: 15px;
+}
+
+#contact textarea {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  font-family: "Helvetica Neue Light";
+  font-size: 15pt;
+  border-width: 2pt;
+  border-radius: 15px;
+}
+
+form {
+  padding-top: 25px;
+}
+
+#diagram {
+  background-color: #ED3238;
+  color: #FFFFFF;
+}
+
+#diagram img {
+  width: 75px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px; 
+  background-color: #FFFFFF;
+}
+
+.inline {  
+  display: inline-block;
+  margin-top: 15%;
+}
+
+.distance_left {
+  margin-left: 2px;
+}
+
+.line {
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+.horizontal_line {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#up {
+  padding-bottom: 100px;
+}
+
+.icon p{
+  padding-top: 15px;
+  font-size: 25pt;
+}
+
+#sweed_logo {
+  height: 152px;
+  margin-top: 3%;
+  padding-left: 3%;
+}
+
+header .container {
+  padding-top: 10%;
+}
+
+#header_tagline {
+   font-family: "Helvetica Neue Thin";
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0 4pt 4pt #000;
+}
+
+#get_featured button {
+  width: 261px;
+  height: 60px;
+  font-size: 23pt;
+  background-color: #ed3238;
+  border-color: transparent;
+}
+
+#get_featured {
+  padding-top: 50px;
+}
+
+#to_contact {
+  padding-top: 50px;
+  color: #FFFFFF;
+  font-size: 18pt;
+}
+
+#info img {
   padding-bottom: 15px;
 }
 
-.help .container {
-  padding-left: 15%;
-  padding-right: 15%;
+#diagram_info {
+  padding-top: 20px;
+  font-size: 25pt;
 }
 
-label {
-  font-family: "Sari Bold";
-  font-size: 14pt;
+#form_title {
+  padding-bottom: 100px;
 }
 
-button {
-  font-family: "Sari Bold";
-  font-size: 10px;
+.form-control::-webkit-input-placeholder { color:#fff; }
+.form-control::-moz-placeholder { color:#fff; } /* firefox 19+ */
+.form-control::-ms-input-placeholder { color:#fff; } /* ie */
+input::-moz-placeholder { color:#fff; }
+
+#video-controls {
+  height: 110pt;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: .5;
 }
 
-.form-control {
-  font-family: "Sari Medium" ;
-  font-size: 14pt;
+#video-controls img {
+  height: 60px;
+  margin-top: 13%;
 }
 
-.key {
-  text-transform: uppercase;
-  font-family: "Sari Bold";
-  font-size: 11pt;
+.diagram_wrapper {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.value {
-  font-family: "Serif Regular";
-  font-size: 11pt;
+.diagram_column{
+  float: left;
+  width: 33%;
+  position: relative;
 }
 
-.copyright {
-  font-family: "Serif Regular";
-  font-size: 10pt;
-  color: white;
+.left_circles {
+  right: 2px;
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+}
+
+.right_circles {
+  left: 2px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.mobile_text{ display: none; }
+@media (max-width: 1300px) and (min-width: 1150px){
+  .diagram_wrapper{ width: 1150px; }
+  
+  #diagram_info{ font-size: 22pt; }
+}
+
+@media (max-width: 1150px) and (min-width: 1000px){
+  .diagram_wrapper{ width: 1000px; }
+  
+  #diagram_info{ font-size: 19pt; }
+}
+
+
+@media (max-width: 1000px) and (min-width: 850px){
+  .diagram_wrapper{ width: 850px; }
+  
+  #diagram_info{ font-size: 16pt; }
+  
+  .hide_on_tablet{ display: none; }
+}
+
+@media (max-width: 850px) {
+  .diagram_wrapper{ width: 100%; }
+  
+  #diagram_info{ font-size: 25pt; }
+  
+  .hide_on_tablet{ display: none; }
+  
+  .right_circles{ display: none; }
+  
+  .left_circles{ display: none; }
+  
+  .diagram_column{ width: 100%; }
+  
+  .horizontal_line{ display: none; }
+  
+  .desktop_text{ display: none; }
+  
+  .mobile_text{ 
+    display: block; 
+    font-size: 25pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
 }
