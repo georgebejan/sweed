@@ -7569,7 +7569,7 @@ input::-moz-placeholder {
 .mobile_text {
   display: none; }
 
-@media (max-width: 1300px) and (min-width: 1150px) {
+@media (max-width: 1300px) and (min-width: 1150px), (max-device-width: 1300px) and (min-device-width: 1150px) {
   /* line 310, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 1150px; }
@@ -7577,7 +7577,7 @@ input::-moz-placeholder {
   /* line 312, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 22pt; } }
-@media (max-width: 1150px) and (min-width: 1000px) {
+@media (max-width: 1150px) and (min-width: 1000px), (max-device-width: 1150px) and (min-device-width: 1000px) {
   /* line 316, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 1000px; }
@@ -7585,7 +7585,7 @@ input::-moz-placeholder {
   /* line 318, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 19pt; } }
-@media (max-width: 1000px) and (min-width: 850px) {
+@media (max-width: 1000px) and (min-width: 850px), (max-device-width: 1150px) and (min-device-width: 1000px) {
   /* line 323, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 850px; }
@@ -7597,7 +7597,7 @@ input::-moz-placeholder {
   /* line 327, C:/gina/sweed/source/stylesheets/index.css */
   .hide_on_tablet {
     display: none; } }
-@media (max-width: 850px) {
+@media (max-width: 850px), (max-device-width: 850px) {
   /* line 331, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 100%; }
