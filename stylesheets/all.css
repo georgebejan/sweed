@@ -7286,59 +7286,60 @@ footer {
 #info {
   color: white;
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  font-size: 14pt; }
 
-/* line 44, C:/gina/sweed/source/stylesheets/index.css */
+/* line 45, C:/gina/sweed/source/stylesheets/index.css */
 #copyright {
-  font-size: 10pt;
+  font-size: 12pt;
   color: white; }
 
-/* line 49, C:/gina/sweed/source/stylesheets/index.css */
+/* line 50, C:/gina/sweed/source/stylesheets/index.css */
 #tagline {
   padding-bottom: 60px; }
 
-/* line 53, C:/gina/sweed/source/stylesheets/index.css */
+/* line 54, C:/gina/sweed/source/stylesheets/index.css */
 #description {
   padding-bottom: 70px;
   font-size: 28pt; }
 
-/* line 58, C:/gina/sweed/source/stylesheets/index.css */
+/* line 59, C:/gina/sweed/source/stylesheets/index.css */
 .light {
   font-size: 30pt;
   font-family: "Helvetica Neue Light"; }
 
-/* line 63, C:/gina/sweed/source/stylesheets/index.css */
+/* line 64, C:/gina/sweed/source/stylesheets/index.css */
 .download img {
-  height: 40pt; }
+  height: 55pt; }
 
-/* line 67, C:/gina/sweed/source/stylesheets/index.css */
+/* line 68, C:/gina/sweed/source/stylesheets/index.css */
 .download {
   padding-left: 0; }
 
-/* line 71, C:/gina/sweed/source/stylesheets/index.css */
+/* line 72, C:/gina/sweed/source/stylesheets/index.css */
 .aside {
   padding-top: 50px; }
 
-/* line 75, C:/gina/sweed/source/stylesheets/index.css */
+/* line 76, C:/gina/sweed/source/stylesheets/index.css */
 #summary {
   padding-bottom: 15px;
-  font-size: 28pt; }
+  font-size: 24pt; }
 
-/* line 80, C:/gina/sweed/source/stylesheets/index.css */
+/* line 81, C:/gina/sweed/source/stylesheets/index.css */
 .medium {
   font-family: "Helvetica Neue Medium";
   font-size: 40pt; }
 
-/* line 85, C:/gina/sweed/source/stylesheets/index.css */
+/* line 86, C:/gina/sweed/source/stylesheets/index.css */
 #title {
   padding-bottom: 30px;
   text-transform: capitalize; }
 
-/* line 90, C:/gina/sweed/source/stylesheets/index.css */
+/* line 91, C:/gina/sweed/source/stylesheets/index.css */
 #summary {
   font-family: "Helvetica Neue Thin"; }
 
-/* line 94, C:/gina/sweed/source/stylesheets/index.css */
+/* line 95, C:/gina/sweed/source/stylesheets/index.css */
 #contact {
   background-image: url("../images/contact_background.png");
   background-size: cover;
@@ -7347,13 +7348,13 @@ footer {
   position: relative;
   color: #FFFFFF; }
 
-/* line 103, C:/gina/sweed/source/stylesheets/index.css */
+/* line 104, C:/gina/sweed/source/stylesheets/index.css */
 #paused {
   padding-top: 20px;
   color: white;
   font-size: 20pt; }
 
-/* line 109, C:/gina/sweed/source/stylesheets/index.css */
+/* line 110, C:/gina/sweed/source/stylesheets/index.css */
 #contact:before {
   content: '\A';
   position: absolute;
@@ -7364,15 +7365,15 @@ footer {
   background-color: black;
   opacity: .5; }
 
-/* line 120, C:/gina/sweed/source/stylesheets/index.css */
+/* line 121, C:/gina/sweed/source/stylesheets/index.css */
 #contact .container {
   z-index: 1000; }
 
-/* line 124, C:/gina/sweed/source/stylesheets/index.css */
+/* line 125, C:/gina/sweed/source/stylesheets/index.css */
 .contact_wrapper {
   position: relative; }
 
-/* line 128, C:/gina/sweed/source/stylesheets/index.css */
+/* line 129, C:/gina/sweed/source/stylesheets/index.css */
 #play {
   height: 60px;
   background-image: url("../images/play_button.png");
@@ -7382,101 +7383,104 @@ footer {
   position: relative;
   margin-top: 50px; }
 
-/* line 138, C:/gina/sweed/source/stylesheets/index.css */
+/* line 139, C:/gina/sweed/source/stylesheets/index.css */
 #send {
   margin-top: 75px; }
 
-/* line 142, C:/gina/sweed/source/stylesheets/index.css */
+/* line 143, C:/gina/sweed/source/stylesheets/index.css */
 #send button {
   font-family: "Helvetica Neue Medium";
-  font-size: 24pt; }
+  font-size: 24pt;
+  padding-left: 20px;
+  padding-right: 20px; }
 
-/* line 147, C:/gina/sweed/source/stylesheets/index.css */
+/* line 150, C:/gina/sweed/source/stylesheets/index.css */
 #contact input {
   background-color: transparent;
   border-color: #FFFFFF;
   color: #FFFFFF;
   font-family: "Helvetica Neue Light";
   font-size: 15pt;
-  border-width: 2pt;
-  border-radius: 15px; }
+  border-width: 1pt;
+  border-radius: 15px;
+  height: 50px; }
 
-/* line 157, C:/gina/sweed/source/stylesheets/index.css */
+/* line 161, C:/gina/sweed/source/stylesheets/index.css */
 #contact textarea {
   background-color: transparent;
   border-color: #FFFFFF;
   color: #FFFFFF;
   font-family: "Helvetica Neue Light";
   font-size: 15pt;
-  border-width: 2pt;
+  border-width: 1pt;
   border-radius: 15px; }
 
-/* line 167, C:/gina/sweed/source/stylesheets/index.css */
+/* line 171, C:/gina/sweed/source/stylesheets/index.css */
 form {
   padding-top: 25px; }
 
-/* line 171, C:/gina/sweed/source/stylesheets/index.css */
+/* line 175, C:/gina/sweed/source/stylesheets/index.css */
 #diagram {
   background-color: #ED3238;
   color: #FFFFFF; }
 
-/* line 176, C:/gina/sweed/source/stylesheets/index.css */
+/* line 180, C:/gina/sweed/source/stylesheets/index.css */
 #diagram img {
   width: 75px; }
 
-/* line 180, C:/gina/sweed/source/stylesheets/index.css */
+/* line 184, C:/gina/sweed/source/stylesheets/index.css */
 .circle {
   border-radius: 50%;
   width: 15px;
   height: 15px;
   background-color: #FFFFFF; }
 
-/* line 187, C:/gina/sweed/source/stylesheets/index.css */
+/* line 191, C:/gina/sweed/source/stylesheets/index.css */
 .inline {
   display: inline-block;
-  margin-top: 15%; }
-
-/* line 192, C:/gina/sweed/source/stylesheets/index.css */
-.distance_left {
-  margin-left: 2px; }
+  margin-top: 5%; }
 
 /* line 196, C:/gina/sweed/source/stylesheets/index.css */
-.line {
-  margin-left: 45%;
-  margin-top: 10px; }
+.distance_left {
+  margin-left: 20px; }
 
-/* line 201, C:/gina/sweed/source/stylesheets/index.css */
+/* line 200, C:/gina/sweed/source/stylesheets/index.css */
+.line {
+  margin-left: 48%;
+  margin-top: 20px; }
+
+/* line 205, C:/gina/sweed/source/stylesheets/index.css */
 .horizontal_line {
   margin-top: 20px;
   margin-bottom: 30px; }
 
-/* line 206, C:/gina/sweed/source/stylesheets/index.css */
+/* line 210, C:/gina/sweed/source/stylesheets/index.css */
 #up {
   padding-bottom: 100px; }
 
-/* line 210, C:/gina/sweed/source/stylesheets/index.css */
+/* line 214, C:/gina/sweed/source/stylesheets/index.css */
 .icon p {
   padding-top: 15px;
   font-size: 25pt; }
 
-/* line 215, C:/gina/sweed/source/stylesheets/index.css */
+/* line 219, C:/gina/sweed/source/stylesheets/index.css */
 #sweed_logo {
   height: 152px;
   margin-top: 3%;
   padding-left: 3%; }
 
-/* line 221, C:/gina/sweed/source/stylesheets/index.css */
+/* line 225, C:/gina/sweed/source/stylesheets/index.css */
 header .container {
   padding-top: 10%; }
 
-/* line 225, C:/gina/sweed/source/stylesheets/index.css */
+/* line 229, C:/gina/sweed/source/stylesheets/index.css */
 #header_tagline {
   font-family: "Helvetica Neue Thin";
   font-size: 50pt;
   color: white;
   text-shadow: 0 4pt 4pt #000; }
 
-/* line 232, C:/gina/sweed/source/stylesheets/index.css */
+/* line 236, C:/gina/sweed/source/stylesheets/index.css */
 #get_featured button {
   width: 261px;
   height: 60px;
@@ -7484,48 +7488,48 @@ header .container {
   background-color: #ed3238;
   border-color: transparent; }
 
-/* line 240, C:/gina/sweed/source/stylesheets/index.css */
+/* line 244, C:/gina/sweed/source/stylesheets/index.css */
 #get_featured {
   padding-top: 50px; }
 
-/* line 244, C:/gina/sweed/source/stylesheets/index.css */
+/* line 248, C:/gina/sweed/source/stylesheets/index.css */
 #to_contact {
   padding-top: 50px;
   color: #FFFFFF;
   font-size: 18pt; }
 
-/* line 250, C:/gina/sweed/source/stylesheets/index.css */
+/* line 254, C:/gina/sweed/source/stylesheets/index.css */
 #info img {
   padding-bottom: 15px; }
 
-/* line 254, C:/gina/sweed/source/stylesheets/index.css */
+/* line 258, C:/gina/sweed/source/stylesheets/index.css */
 #diagram_info {
   padding-top: 20px;
   font-size: 25pt; }
 
-/* line 259, C:/gina/sweed/source/stylesheets/index.css */
+/* line 263, C:/gina/sweed/source/stylesheets/index.css */
 #form_title {
   padding-bottom: 100px; }
 
-/* line 263, C:/gina/sweed/source/stylesheets/index.css */
+/* line 267, C:/gina/sweed/source/stylesheets/index.css */
 .form-control::-webkit-input-placeholder {
   color: #fff; }
 
-/* line 264, C:/gina/sweed/source/stylesheets/index.css */
+/* line 268, C:/gina/sweed/source/stylesheets/index.css */
 .form-control::-moz-placeholder {
   color: #fff; }
 
 /* firefox 19+ */
-/* line 265, C:/gina/sweed/source/stylesheets/index.css */
+/* line 269, C:/gina/sweed/source/stylesheets/index.css */
 .form-control::-ms-input-placeholder {
   color: #fff; }
 
 /* ie */
-/* line 266, C:/gina/sweed/source/stylesheets/index.css */
+/* line 270, C:/gina/sweed/source/stylesheets/index.css */
 input::-moz-placeholder {
   color: #fff; }
 
-/* line 268, C:/gina/sweed/source/stylesheets/index.css */
+/* line 272, C:/gina/sweed/source/stylesheets/index.css */
 #video-controls {
   height: 110pt;
   background-color: black;
@@ -7534,103 +7538,105 @@ input::-moz-placeholder {
   width: 100%;
   opacity: .5; }
 
-/* line 277, C:/gina/sweed/source/stylesheets/index.css */
+/* line 281, C:/gina/sweed/source/stylesheets/index.css */
 #video-controls img {
   height: 60px;
   margin-top: 13%; }
 
-/* line 282, C:/gina/sweed/source/stylesheets/index.css */
+/* line 286, C:/gina/sweed/source/stylesheets/index.css */
 .diagram_wrapper {
   width: 1300px;
   margin-left: auto;
   margin-right: auto;
   display: block; }
 
-/* line 289, C:/gina/sweed/source/stylesheets/index.css */
+/* line 293, C:/gina/sweed/source/stylesheets/index.css */
 .diagram_column {
   float: left;
   width: 33%;
   position: relative; }
 
-/* line 295, C:/gina/sweed/source/stylesheets/index.css */
+/* line 299, C:/gina/sweed/source/stylesheets/index.css */
 .left_circles {
+  padding-right: 10px;
   right: 2px;
   position: absolute;
   top: 0;
   margin-top: 20px; }
 
-/* line 302, C:/gina/sweed/source/stylesheets/index.css */
+/* line 307, C:/gina/sweed/source/stylesheets/index.css */
 .right_circles {
+  padding-left: 10px;
   left: 2px;
   position: absolute;
   margin-top: 20px; }
 
-/* line 308, C:/gina/sweed/source/stylesheets/index.css */
+/* line 314, C:/gina/sweed/source/stylesheets/index.css */
 .mobile_text {
   display: none; }
 
 @media (max-width: 1300px) and (min-width: 1150px), (max-device-width: 1300px) and (min-device-width: 1150px) {
-  /* line 310, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 316, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 1150px; }
 
-  /* line 312, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 318, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 22pt; } }
 @media (max-width: 1150px) and (min-width: 1000px), (max-device-width: 1150px) and (min-device-width: 1000px) {
-  /* line 316, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 322, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 1000px; }
 
-  /* line 318, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 324, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 19pt; } }
-@media (max-width: 1000px) and (min-width: 850px), (max-device-width: 1150px) and (min-device-width: 1000px) {
-  /* line 323, C:/gina/sweed/source/stylesheets/index.css */
+@media (max-width: 1000px) and (min-width: 850px), (max-device-width: 1000px) and (min-device-width: 850px) {
+  /* line 329, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 850px; }
 
-  /* line 325, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 331, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 16pt; }
 
-  /* line 327, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 333, C:/gina/sweed/source/stylesheets/index.css */
   .hide_on_tablet {
     display: none; } }
 @media (max-width: 850px), (max-device-width: 850px) {
-  /* line 331, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 337, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 100%; }
 
-  /* line 333, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 339, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 25pt; }
 
-  /* line 335, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 341, C:/gina/sweed/source/stylesheets/index.css */
   .hide_on_tablet {
     display: none; }
 
-  /* line 337, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 343, C:/gina/sweed/source/stylesheets/index.css */
   .right_circles {
     display: none; }
 
-  /* line 339, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 345, C:/gina/sweed/source/stylesheets/index.css */
   .left_circles {
     display: none; }
 
-  /* line 341, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 347, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_column {
     width: 100%; }
 
-  /* line 343, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 349, C:/gina/sweed/source/stylesheets/index.css */
   .horizontal_line {
     display: none; }
 
-  /* line 345, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 351, C:/gina/sweed/source/stylesheets/index.css */
   .desktop_text {
     display: none; }
 
-  /* line 347, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 353, C:/gina/sweed/source/stylesheets/index.css */
   .mobile_text {
     display: block;
     font-size: 25pt;
