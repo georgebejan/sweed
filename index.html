@@ -237,36 +237,36 @@ What sweed is all about
 <p class='light'>and we'll get back to you in no time!</p>
 </div>
 </div>
-<form>
+<form action='http://ruby-contactform.herokuapp.com/user/a9518640-b853-4f53-94d3-28fb44f178fd' method='POST'>
 <div class='row'>
 <div class='col-md-8 col-md-offset-2'>
 <div class='form-group'>
-<input class='form-control' placeholder='Name'>
-</div>
-</div>
-</div>
-<div class='row'>
-<div class='col-md-8 col-md-offset-2'>
-<div class='form-group'>
-<input class='form-control' placeholder='Email'>
+<input class='form-control' name='name' placeholder='Name'>
 </div>
 </div>
 </div>
 <div class='row'>
 <div class='col-md-8 col-md-offset-2'>
 <div class='form-group'>
-<input class='form-control' placeholder='Subject'>
+<input class='form-control' name='email' placeholder='Email'>
 </div>
 </div>
 </div>
 <div class='row'>
 <div class='col-md-8 col-md-offset-2'>
-<textarea class='form-control' placeholder='Message' rows='10'></textarea>
+<div class='form-group'>
+<input class='form-control' name='subject' placeholder='Subject'>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-8 col-md-offset-2'>
+<textarea class='form-control' name='message' placeholder='Message' rows='10'></textarea>
 </div>
 </div>
 <div class='row' id='send'>
 <div class='col-md-8 col-md-offset-2 text-center'>
-<button class='btn btn-primary navbar-btn' type='button'>SEND MESSAGE</button>
+<button class='btn btn-primary navbar-btn' type='submit'>SEND MESSAGE</button>
 </div>
 </div>
 </form>

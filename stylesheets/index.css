@@ -127,7 +127,7 @@ footer {
 }
 
 #play {
-  height: 60px;
+  height: 75px;
   background-image: url(image_path("images/play_button.png"));
   background-size: contain;
   background-position: 50%;
@@ -228,7 +228,7 @@ header .container {
 
 #header_tagline {
    font-family: "Helvetica Neue Thin";
-  font-size: 50pt;
+  font-size: 48pt;
   color: white;
   text-shadow: 0 4pt 4pt #000;
 }
@@ -242,7 +242,7 @@ header .container {
 }
 
 #get_featured {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 #to_contact {
@@ -270,7 +270,7 @@ header .container {
 input::-moz-placeholder { color:#fff; }
 
 #video-controls {
-  height: 110pt;
+  height: 120pt;
   background-color: black;
   position: absolute;
   bottom: 0;

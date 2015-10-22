@@ -27,7 +27,7 @@ $( document ).ready(function()  {
 
   $('#pause').on('click', function(e) {
       var target = $("#header_overlay");
-      $("#play").css('background-image', 'url(images/pause_button.png)');
+      $("#play").css('background-image', 'url(images/play_button.png)');
       $("#paused").show();
       $("#header_overlay").show();    
       $("#video-controls").hide();

@@ -7375,7 +7375,7 @@ footer {
 
 /* line 129, C:/gina/sweed/source/stylesheets/index.css */
 #play {
-  height: 60px;
+  height: 75px;
   background-image: url("../images/play_button.png");
   background-size: contain;
   background-position: 50%;
@@ -7476,7 +7476,7 @@ header .container {
 /* line 229, C:/gina/sweed/source/stylesheets/index.css */
 #header_tagline {
   font-family: "Helvetica Neue Thin";
-  font-size: 50pt;
+  font-size: 48pt;
   color: white;
   text-shadow: 0 4pt 4pt #000; }
 
@@ -7490,7 +7490,7 @@ header .container {
 
 /* line 244, C:/gina/sweed/source/stylesheets/index.css */
 #get_featured {
-  padding-top: 50px; }
+  padding-top: 60px; }
 
 /* line 248, C:/gina/sweed/source/stylesheets/index.css */
 #to_contact {
@@ -7531,7 +7531,7 @@ input::-moz-placeholder {
 
 /* line 272, C:/gina/sweed/source/stylesheets/index.css */
 #video-controls {
-  height: 110pt;
+  height: 120pt;
   background-color: black;
   position: absolute;
   bottom: 0;
