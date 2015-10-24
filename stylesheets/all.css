@@ -7575,73 +7575,81 @@ input::-moz-placeholder {
 .mobile_text {
   display: none; }
 
+/* line 315, C:/gina/sweed/source/stylesheets/index.css */
+.mobile_icon {
+  display: none; }
+
 @media (max-width: 1300px) and (min-width: 1150px), (max-device-width: 1300px) and (min-device-width: 1150px) {
-  /* line 316, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 318, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 1150px; }
 
-  /* line 318, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 320, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 22pt; } }
 @media (max-width: 1150px) and (min-width: 1000px), (max-device-width: 1150px) and (min-device-width: 1000px) {
-  /* line 322, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 324, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 1000px; }
 
-  /* line 324, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 326, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 19pt; } }
 @media (max-width: 1000px) and (min-width: 850px), (max-device-width: 1000px) and (min-device-width: 850px) {
-  /* line 329, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 331, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 850px; }
 
-  /* line 331, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 333, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 16pt; }
 
-  /* line 333, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 335, C:/gina/sweed/source/stylesheets/index.css */
   .hide_on_tablet {
     display: none; } }
 @media (max-width: 850px), (max-device-width: 850px) {
-  /* line 337, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 339, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_wrapper {
     width: 100%; }
 
-  /* line 339, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 341, C:/gina/sweed/source/stylesheets/index.css */
   #diagram_info {
     font-size: 25pt; }
 
-  /* line 341, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 343, C:/gina/sweed/source/stylesheets/index.css */
   .hide_on_tablet {
     display: none; }
 
-  /* line 343, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 345, C:/gina/sweed/source/stylesheets/index.css */
   .right_circles {
     display: none; }
 
-  /* line 345, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 347, C:/gina/sweed/source/stylesheets/index.css */
   .left_circles {
     display: none; }
 
-  /* line 347, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 349, C:/gina/sweed/source/stylesheets/index.css */
   .diagram_column {
     width: 100%; }
 
-  /* line 349, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 351, C:/gina/sweed/source/stylesheets/index.css */
   .horizontal_line {
     display: none; }
 
-  /* line 351, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 353, C:/gina/sweed/source/stylesheets/index.css */
   .desktop_text {
     display: none; }
 
-  /* line 353, C:/gina/sweed/source/stylesheets/index.css */
+  /* line 355, C:/gina/sweed/source/stylesheets/index.css */
   .mobile_text {
     display: block;
     font-size: 25pt;
     margin-top: 15px;
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+
+  /* line 362, C:/gina/sweed/source/stylesheets/index.css */
+  .mobile_icon {
+    display: block; } }
 @font-face {
   font-family: "Helvetica Neue Medium";
   src: url("../fonts/HelveticaNeue-Medium.ttf"); }

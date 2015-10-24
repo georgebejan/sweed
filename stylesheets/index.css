@@ -312,6 +312,8 @@ input::-moz-placeholder { color:#fff; }
 }
 
 .mobile_text{ display: none; }
+.mobile_icon { display: none; }
+
 @media (max-width: 1300px) and (min-width: 1150px), (max-device-width: 1300px) and (min-device-width: 1150px){
   .diagram_wrapper{ width: 1150px; }
   
@@ -355,6 +357,10 @@ input::-moz-placeholder { color:#fff; }
     font-size: 25pt;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .mobile_icon {
+    display: block;
   }
   
 }

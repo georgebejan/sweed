@@ -151,7 +151,12 @@ Book your Spot
 </div>
 <div class='row'>
 <div class='diagram_column text-center icon'>
+<div class='hide_on_tablet'>
 <img src='images/rate.png'>
+</div>
+<div class='mobile_icon'>
+<img src='images/conversation.png'>
+</div>
 <div class='mobile_text'>
 Jumpstart Your Conversation
 </div>
@@ -191,7 +196,12 @@ Grow Your Network
 <div class='circle inline distance_left'></div>
 </div>
 </div>
+<div class='hide_on_tablet'>
 <img src='images/conversation.png'>
+</div>
+<div class='mobile_icon'>
+<img src='images/rate.png'>
+</div>
 <div class='mobile_text'>
 Rate Your Experience
 </div>
@@ -237,7 +247,7 @@ What sweed is all about
 <p class='light'>and we'll get back to you in no time!</p>
 </div>
 </div>
-<form action='http://ruby-contactform.herokuapp.com/user/a9518640-b853-4f53-94d3-28fb44f178fd' method='POST'>
+<form action='http://ruby-contactform.herokuapp.com/user/a9518640-b853-4f53-94d3-28fb44f178fd' id='send_message' method='POST'>
 <div class='row'>
 <div class='col-md-8 col-md-offset-2'>
 <div class='form-group'>
@@ -267,6 +277,11 @@ What sweed is all about
 <div class='row' id='send'>
 <div class='col-md-8 col-md-offset-2 text-center'>
 <button class='btn btn-primary navbar-btn' type='submit'>SEND MESSAGE</button>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-8 col-md-offset-2 text-center' id='confirm_send'>
+Your message has been sent! Thanks!
 </div>
 </div>
 </form>

@@ -1,6 +1,7 @@
 $( document ).ready(function()  {
   $("#video-controls").hide();
   $("#paused").hide();
+  $('#confirm_send').hide();
 
   $('#get_featured').on('click', function(e) {
     e.preventDefault();
@@ -31,6 +32,23 @@ $( document ).ready(function()  {
       $("#paused").show();
       $("#header_overlay").show();    
       $("#video-controls").hide();
+  });
+
+  $('#send_message').submit(function(event) {
+      event.preventDefault();
+      var $form = $( this ),
+          url = $form.attr( 'action' );
+
+      var posting = $.post( url, { 
+        name: $('#name').val(), 
+        email: $('#email').val(),
+        subject: $('#subject').val(),
+        message: $('#message').val() 
+      });
+
+      posting.done(function(data) {
+        $('#confirm_send').show().delay(5000).fadeOut();
+      });
   });
 })
 ;
