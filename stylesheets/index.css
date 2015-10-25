@@ -269,7 +269,7 @@ header .container {
 .form-control::-ms-input-placeholder { color:#fff; } /* ie */
 input::-moz-placeholder { color:#fff; }
 
-#video-controls {
+#video_controls {
   height: 120pt;
   background-color: black;
   position: absolute;
@@ -278,7 +278,7 @@ input::-moz-placeholder { color:#fff; }
   opacity: .5;
 }
 
-#video-controls img {
+#video_controls img {
   height: 60px;
   margin-top: 13%;
 }

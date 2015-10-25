@@ -10346,43 +10346,43 @@ return jQuery;
 
 }));
 $( document ).ready(function()  {
-  $("#video-controls").hide();
+  $("#video_controls").hide();
   $("#paused").hide();
   $('#confirm_send').hide();
 
+  
+  $('#get_featured').on('click', function(e) {
+    e.preventDefault();
+    var target= $('#contact')
+    $('html, body').stop().animate({
+       scrollTop: target.offset().top
+    }, 1000);
+  });
+
   var mq = window.matchMedia( "(min-device-width: 850px)" );
   if (mq.matches) {
-    $('#get_featured').on('click', function(e) {
-      e.preventDefault();
-      var target= $('#contact')
-      $('html, body').stop().animate({
-         scrollTop: target.offset().top
-      }, 1000);
-    });
-    
     $('#play').on('click', function(e) {
         var target = $("#header_overlay");
         $("#header_overlay").hide();
-        $("#video-controls").show();
+        $("#video_controls").show();
         $("#paused").hide();
-    });
-  
-    $('#stop').on('click', function(e) {
-        var target = $("#header_overlay");
-        $("#play").css('background-image', 'url(images/play_button.png)');
-        $("#header_overlay").show();
-        $("#video-controls").hide();
-        $("#paused").hide();
-    });
-  
-    $('#pause').on('click', function(e) {
-        var target = $("#header_overlay");
-        $("#play").css('background-image', 'url(images/play_button.png)');
-        $("#paused").show();
-        $("#header_overlay").show();    
-        $("#video-controls").hide();
     });
   }
+
+  $('#stop').on('click', function(e) {
+      var target = $("#header_overlay");
+      $("#play").css('background-image', 'url(images/play_button.png)');
+      $("#header_overlay").show();
+      $("#video_controls").hide();
+      $("#paused").hide();
+  });
+   $('#pause').on('click', function(e) {
+      var target = $("#header_overlay");
+      $("#play").css('background-image', 'url(images/play_button.png)');
+      $("#paused").show();
+      $("#header_overlay").show();    
+      $("#video_controls").hide();
+  });
 
   $('#send_message').submit(function(event) {
       event.preventDefault();

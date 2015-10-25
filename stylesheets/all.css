@@ -7530,7 +7530,7 @@ input::-moz-placeholder {
   color: #fff; }
 
 /* line 272, C:/gina/sweed/source/stylesheets/index.css */
-#video-controls {
+#video_controls {
   height: 120pt;
   background-color: black;
   position: absolute;
@@ -7539,7 +7539,7 @@ input::-moz-placeholder {
   opacity: .5; }
 
 /* line 281, C:/gina/sweed/source/stylesheets/index.css */
-#video-controls img {
+#video_controls img {
   height: 60px;
   margin-top: 13%; }
 
