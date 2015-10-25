@@ -7323,7 +7323,7 @@ footer {
 /* line 76, C:/gina/sweed/source/stylesheets/index.css */
 #summary {
   padding-bottom: 15px;
-  font-size: 24pt; }
+  font-size: 23pt; }
 
 /* line 81, C:/gina/sweed/source/stylesheets/index.css */
 .medium {
@@ -7390,7 +7390,7 @@ footer {
 /* line 143, C:/gina/sweed/source/stylesheets/index.css */
 #send button {
   font-family: "Helvetica Neue Medium";
-  font-size: 24pt;
+  font-size: 18pt;
   padding-left: 20px;
   padding-right: 20px; }
 
@@ -7484,7 +7484,7 @@ header .container {
 #get_featured button {
   width: 261px;
   height: 60px;
-  font-size: 23pt;
+  font-size: 20pt;
   background-color: #ed3238;
   border-color: transparent; }
 
